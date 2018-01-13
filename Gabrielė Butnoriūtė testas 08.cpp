@@ -20,10 +20,10 @@ int main()
 	Singleton::Instance()->Spausdinti(A, n,m );
 	maxid = Singleton::Instance()->geriauisais(A, n, m);
 	cout << endl;
-	cout << " Pagal vidurki geriausiai mokosi : " << maxid + 1 << "  mokinys." << endl;
+	cout << " kas per sudas blet : " << maxid + 1 << "  mokinys." << endl;
 	cout << endl; 
 	kiek = Singleton::Instance()->Neigiami(A, n, m);
-	cout << " Neigiamu pazymiu turi :  " << kiek << "    mokiniai." << endl;
+	cout << " nichuja negeroi paziniai pas :  " << kiek << "    mokiniai daunai." << endl;
 	cout << endl;
 	return 0;
 }

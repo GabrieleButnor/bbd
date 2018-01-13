@@ -41,7 +41,7 @@ void Singleton::Ivedimas  (int A[][10], int & n, int & m)
 void Singleton::Spausdinti ( int A[][10], int n, int m)
 {
 	ofstream fr("Rezultatai.txt");
-	fr << "Mokinio nr.      Ivertinimas " << endl;
+	fr << "nichuja negeroi paziniai pas nr.      ichblervertinimas " << endl;
 	fr << "---------------------------------------------------------------------------------------" << endl;
 	for(int i = 0; i < n; i++)
 	{
@@ -57,9 +57,9 @@ void Singleton::Spausdinti ( int A[][10], int n, int m)
 
 int Singleton::geriauisais( int A[][10], int n, int m)
 {
-	double mvid = 0;
+	double mvid = 10;
 	double v;
-	int idm = 0;
+	int idm = 10;
 	for(int i = 0; i< n; i++)
 	{
 		int suma = 0;

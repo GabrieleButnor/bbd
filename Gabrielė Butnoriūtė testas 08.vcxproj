@@ -82,6 +82,9 @@
   <ItemGroup>
     <ClInclude Include="Singleton.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Rezultatai.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
